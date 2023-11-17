@@ -10,10 +10,16 @@ Coroutine scope = life time of the coroutine. Inside the scope boundary the coro
 Coroutin context = Thread  - in which thread coroutine will e launched. 
 
 ## Dispatchers 
-Dispatecher is a way to define threads on which Coroutines are executed.  Threre are three pre defined - different kind of threads : 
+Dispatecher is a way to define context / thread on which Coroutines are executed.  Threre are three pre defined - different kind of threads : 
 1. IO
 2. Main
 3. Default
+
+## Suspend function
+Coroutines helps to implement the functionality that can be suspended or later resumed at specific points without blocking the thread. 
+Suspending functions must be called from either corouties or other suspending function. 
+
+
 
 
 
