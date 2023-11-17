@@ -42,6 +42,7 @@ In the cancel coroutine file you can see that, there is a isActive method which 
 
 
 ## With Context 
+its basically blocking code mechanishm, which means that, it sequentially with all the code, it will execute the coroutine scope code and also after execting the code, it will move to the next line of the code.
 
 
 
