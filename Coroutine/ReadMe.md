@@ -20,6 +20,13 @@ Coroutines helps to implement the functionality that can be suspended or later r
 Suspending functions must be called from either corouties or other suspending function. 
 
 
+## Job 
+job helps to manage coroutine. Job object is used to wait until coroutine scope is done. 
+job.join() // it used when we need to wait untill the coroutine is finished, then it executes the rest of the line. 
+job is used to handle the coroutine, for example to start it . to finish it. Or to wait for the coroutine etc. 
+
+
+
 
 
 
