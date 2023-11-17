@@ -25,6 +25,12 @@ job helps to manage coroutine. Job object is used to wait until coroutine scope 
 job.join() // it used when we need to wait untill the coroutine is finished, then it executes the rest of the line. <br />
 job is used to handle the coroutine, for example to start it . to finish it. Or to wait for the coroutine etc. <br />
 
+### Job Hierarcy
+Launcing multiple coroutin, inside one coroutine. Which means that, we can call a IO corouine inside a MAIN thread coroutine and it will not cause any issue.  
+
+
+
+
 ## Async
 Use launch : when we do not care about the result <br />
 Use Async  : when we expect some result or output from the coroutin.  <br />
