@@ -28,7 +28,10 @@ job is used to handle the coroutine, for example to start it . to finish it. Or 
 ## Async
 Use launch : when we do not care about the result <br />
 Use Async  : when we expect some result or output from the coroutin.  <br />
-In the case  of Async, we get a defferd type, which return type value = the last line of the code. If its string then string , if its int then its int. 
+In the case  of Async, we get a deffered type, which return type value = the last line of the code. If its string then string , if its int then its int.  <br />
+if you see the async code, you will see that we dont need to use any kind of variale, in case of async  <br />
+why ? <br />
+As i already mentioned above that it returns  a  deffered type which is basically referes the type of the value to the last line of the async. That is why we dont need to use any kind of variable to store the value.
 
 
 
