@@ -44,6 +44,19 @@ In the cancel coroutine file you can see that, there is a isActive method which 
 ## With Context 
 its basically blocking code mechanishm, which means that, it sequentially with all the code, it will execute the coroutine scope code and also after execting the code, it will move to the next line of the code.
 
+## Run Blocking 
+waits untill the code inside the coroutine is not executed. But But it lets other code to be executed. It run parallely. 
+
+## LifeCycle Scope 
+Coroutine Scope is attached with lifecycle (activity or fragments) <br />
+Coroutines in this scope will be canceled when life cycle is destroyed.  We dont need to manually destroy the coroutine. 
+
+## LifeCycle Scope 
+Coroutine Scope is attached with viewModel <br />
+Coroutines in this scope will be canceled when viewModel is cleared.  We dont need to manually destroy the coroutine. 
+
+
+
 
 
 
