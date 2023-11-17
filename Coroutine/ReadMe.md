@@ -1,4 +1,4 @@
-### Why thread is not better 
+#### Why thread is not better 
 
 Thread usually takes up more space. Usually it takes around 2mb in OS. And it depends on the system about how much thread it can create. 
 
