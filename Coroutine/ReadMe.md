@@ -25,6 +25,15 @@ job helps to manage coroutine. Job object is used to wait until coroutine scope 
 job.join() // it used when we need to wait untill the coroutine is finished, then it executes the rest of the line. <br />
 job is used to handle the coroutine, for example to start it . to finish it. Or to wait for the coroutine etc. <br />
 
+## Async
+Use launch : when we do not care about the result <br />
+Use Async  : when we expect some result or output from the coroutin.  <br />
+In the case  of Async, we get a defferd type, which return type value = the last line of the code. If its string then string , if its int then its int. 
+
+
+
+
+
 
 
 
